@@ -23,6 +23,7 @@
 		C254E5721E4F3F2100B0104F /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254E56A1E4F3F2100B0104F /* Image+CoreDataProperties.swift */; };
 		C254E5791E4F463800B0104F /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254E5781E4F463800B0104F /* MaterialView.swift */; };
 		C26A76D91E5074EE008E194F /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26A76D81E5074EE008E194F /* ItemCell.swift */; };
+		C28024A61E5C511C00D9AE8F /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28024A51E5C511C00D9AE8F /* ItemDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		C254E56A1E4F3F2100B0104F /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C254E5781E4F463800B0104F /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		C26A76D81E5074EE008E194F /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		C28024A51E5C511C00D9AE8F /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,7 @@
 				C254E5771E4F460B00B0104F /* View */,
 				C254E5731E4F3F2D00B0104F /* Model */,
 				C254E54E1E4F3CB700B0104F /* AppDelegate.swift */,
-				C254E5501E4F3CB700B0104F /* MainVC.swift */,
+				C28024A41E5C50AE00D9AE8F /* Controller */,
 				C254E5521E4F3CB700B0104F /* Main.storyboard */,
 				C254E5581E4F3CB700B0104F /* Assets.xcassets */,
 				C254E55A1E4F3CB700B0104F /* LaunchScreen.storyboard */,
@@ -119,6 +121,15 @@
 				C26A76D81E5074EE008E194F /* ItemCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		C28024A41E5C50AE00D9AE8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C254E5501E4F3CB700B0104F /* MainVC.swift */,
+				C28024A51E5C511C00D9AE8F /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				C254E56C1E4F3F2100B0104F /* Store+CoreDataProperties.swift in Sources */,
 				C254E5571E4F3CB700B0104F /* DreamListerProject.xcdatamodeld in Sources */,
 				C254E56F1E4F3F2100B0104F /* ItemType+CoreDataClass.swift in Sources */,
+				C28024A61E5C511C00D9AE8F /* ItemDetailsVC.swift in Sources */,
 				C254E56B1E4F3F2100B0104F /* Store+CoreDataClass.swift in Sources */,
 				C254E5511E4F3CB700B0104F /* MainVC.swift in Sources */,
 				C254E54F1E4F3CB700B0104F /* AppDelegate.swift in Sources */,
